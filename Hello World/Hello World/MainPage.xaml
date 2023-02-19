@@ -5,6 +5,7 @@
 
     <StackLayout>
         <Label Text="Hello World!" TextColor="Black" FontSize="30" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+        <Button Text="Hello" Clicked="Button_Clicked" TextColor="Black" FontSize="20"/>
     </StackLayout>
 
 </ContentPage>
