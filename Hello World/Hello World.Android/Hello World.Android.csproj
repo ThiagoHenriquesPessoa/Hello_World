@@ -84,13 +84,16 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\drawable\" />
+    <AndroidResource Include="Resources\drawable\Naruto.jpg" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Hello World\Hello World.csproj">
       <Project>{4AC43B6E-6C02-436A-A30B-9FDBE3C388F6}</Project>
       <Name>Hello World</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\NarutoShippuden.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

@@ -5,6 +5,7 @@
     <ContentPage.Content>
         <StackLayout>
             <Button x:Name="btnGoBack" Text="Go Back" Clicked="btnGoBack_Clicked"/>
+            <Image Source="NarutoShippuden.png" WidthRequest="600" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
