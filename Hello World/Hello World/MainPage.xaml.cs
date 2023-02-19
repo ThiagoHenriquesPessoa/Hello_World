@@ -12,7 +12,18 @@ namespace Hello_World
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            DisplayAlert("Hello", "Hello World!", "OK");
+            DisplayAlert("Hello", "Hello, " + txtName.Text + "!", "OK");
+        }
+
+        private void btnImagem_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Pages.Imagem());
+        }
+
+        private void btnTexti_Clicked(object sender, EventArgs e)
+        {
+            var Navigat = new Pages.Text();
+            Navigation.PushModalAsync(Navigat);
         }
     }
 }

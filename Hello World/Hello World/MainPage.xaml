@@ -4,8 +4,14 @@
              x:Class="Hello_World.MainPage">
 
     <StackLayout>
-        <Label Text="Hello World!" TextColor="Black" FontSize="30" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+        <Label Text="Hello World!" TextColor="Black" FontSize="30" HorizontalOptions="Center"/>
+        <Entry x:Name="txtName" Keyboard="Text" ReturnType="Default"/>
+        
         <Button Text="Hello" Clicked="Button_Clicked" TextColor="Black" FontSize="20"/>
+        <Button x:Name="btnImagem" Clicked="btnImagem_Clicked" Text="Image"
+            BackgroundColor="Transparent" BorderColor="Black" BorderWidth="1" CornerRadius="20" HorizontalOptions="CenterAndExpand"/>
+        <Button x:Name="btnTexti" Clicked="btnTexti_Clicked" Text="Text"
+            BackgroundColor="Transparent" BorderColor="Black" BorderWidth="1" CornerRadius="20" HorizontalOptions="CenterAndExpand"/>
     </StackLayout>
 
 </ContentPage>
