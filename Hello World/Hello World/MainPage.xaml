@@ -12,6 +12,8 @@
             BackgroundColor="Transparent" BorderColor="Black" BorderWidth="1" CornerRadius="20" HorizontalOptions="CenterAndExpand"/>
         <Button x:Name="btnTexti" Clicked="btnTexti_Clicked" Text="Text"
             BackgroundColor="Transparent" BorderColor="Black" BorderWidth="1" CornerRadius="20" HorizontalOptions="CenterAndExpand"/>
+
+        <Image Source="clam.png" WidthRequest="100" HeightRequest="100" HorizontalOptions="CenterAndExpand"/>
     </StackLayout>
 
 </ContentPage>
