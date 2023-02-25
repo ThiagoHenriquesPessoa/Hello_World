@@ -25,5 +25,15 @@ namespace Hello_World
             var Navigat = new Pages.Text();
             Navigation.PushModalAsync(Navigat);
         }
+
+        private void btnEvents_Pressed(object sender, EventArgs e)
+        {
+            lblEvents.Text = "held down";
+        }
+
+        private void btnEvents_Released(object sender, EventArgs e)
+        {
+            lblEvents.Text = "Released";
+        }
     }
 }
