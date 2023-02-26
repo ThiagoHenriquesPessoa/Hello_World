@@ -3,9 +3,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Hello_World.Pages.Text">
     <ContentPage.Content>
-        <StackLayout>
-            <Button x:Name="btnGoBack" Text="Go Back" Clicked="btnGoBack_Clicked"/>
-            <Image Source="NarutoShippuden.png" WidthRequest="600" />
-        </StackLayout>
+        <ScrollView>
+            <StackLayout>
+                <Label Margin="20" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ut nisi egestas metus placerat maximus. Donec semper nec mi eget semper. Etiam odio nibh, imperdiet vel venenatis et, mattis dapibus nisl. Aenean at ante sed dui hendrerit pellentesque. Proin sagittis pharetra purus, ut tincidunt lectus. In consectetur mi vitae consequat condimentum. Sed eget lacus iaculis nisl molestie malesuada at ac nulla. Nulla pretium ultrices pulvinar. Aenean lacus quam, consequat vel sapien vitae, dignissim maximus mauris.
+
+Nulla facilisi. Integer commodo mi neque, sit amet venenatis tellus porta quis. Nulla a interdum nisl. Proin ullamcorper magna odio, eleifend luctus est pulvinar id. Proin semper pellentesque felis, lacinia lacinia felis. Aliquam mollis dui sed ex vulputate venenatis. Cras mollis, risus efficitur venenatis viverra, elit nulla blandit metus, eget pulvinar urna felis sed nibh. Mauris hendrerit arcu tellus, non tincidunt turpis aliquet in. Sed quis diam in urna convallis lacinia nec ut justo. Ut non libero at sem pretium facilisis eu quis ligula. Morbi libero diam, euismod nec ligula at, viverra dignissim enim. Vestibulum ipsum augue, luctus id fringilla non, auctor vel lorem. Suspendisse quis erat non nisl gravida maximus at at nulla. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam ut nulla ac augue fermentum maximus.
+
+Nullam libero nisl, euismod et facilisis vitae, viverra id ipsum. Praesent sit amet finibus ex, et dignissim quam. Curabitur gravida lectus aliquam fermentum consectetur. Cras congue venenatis tempor. Donec sit amet risus et tellus sodales sollicitudin nec ac dolor. Vestibulum pretium erat in libero elementum porttitor. Proin varius lacinia dui, nec eleifend diam. Nulla vehicula lacus eget hendrerit ullamcorper. Duis lacinia, est id ornare iaculis, justo dolor auctor augue, eu fringilla elit justo ut felis.
+
+Nam odio arcu, pharetra eget orci vel, volutpat hendrerit tellus. Duis euismod interdum ligula, a imperdiet elit pretium eget. Donec enim lectus, euismod id libero et, iaculis mollis enim. Curabitur interdum mauris nisl, id varius turpis cursus dapibus. Vivamus laoreet ac orci non suscipit. Nullam at arcu tristique, feugiat sem molestie, interdum sem. In id eros sed tellus ullamcorper maximus at vitae massa. Nunc pharetra faucibus enim nec egestas. Quisque viverra scelerisque dolor sit amet cursus. Aenean dignissim, justo in scelerisque accumsan, velit purus iaculis nisi, eu porta erat orci ut libero. Maecenas sapien dui, venenatis nec aliquam eget, mollis eu libero. Etiam eu facilisis neque. Quisque et mauris ut magna elementum imperdiet ut et lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed ut lorem dictum, finibus turpis congue, ultricies enim.
+
+Donec elementum sem at sapien laoreet, eget ultricies velit tristique. Nullam dapibus erat et odio imperdiet consequat quis et sem. Morbi egestas luctus augue, sit amet mattis erat semper nec. Aenean lobortis eleifend ligula, at rhoncus tortor convallis eget. Nam dignissim, nisl eget pulvinar mattis, libero orci mattis neque, at blandit ante diam id ex. Phasellus suscipit, eros non sollicitudin volutpat, ligula sapien iaculis mauris, eget interdum leo magna id odio. Praesent efficitur elementum odio, ac tincidunt orci dapibus egestas. Aliquam at fringilla ipsum. In scelerisque fringilla erat, vitae pellentesque neque mollis et. Morbi eget est elementum, ultrices erat sed, vestibulum urna. Duis aliquet mattis mi sit amet fringilla. Duis et porttitor velit.
+
+Generated 5 paragraphs, 535 words, 3577 bytes of Lorem Ipsum
+" />
+                <Button x:Name="btnGoBack" Text="Go Back" Clicked="btnGoBack_Clicked" />
+                <Image Source="NarutoShippuden.png" WidthRequest="600" />
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
